@@ -1,0 +1,130 @@
+body {
+  font-family: "Barlow";
+  margin: 0;
+  background-color: #fff;
+}
+.container-fluid {
+  padding: 0;
+}
+.nav-link{
+  color: #000000;
+}
+.nav-link:hover {
+  color: #000000;
+}
+.login {
+  color: #a0a1ac;
+}
+.login:hover {
+  color: #a0a1ac;
+}
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #cdd2d6;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 14px 14px 0 0;
+
+}
+.square {
+  background-color: #eef3f6;
+  height: 49%;
+  width: 50%;
+  left: 52%;
+  position: absolute;
+  border-bottom-left-radius: 15%;
+  z-index: -1;
+}
+.navbar {
+  padding: 5% 10% 5% 5%;
+}
+.nav-item {
+  margin-right: 5%;
+  font-size: 13px;
+  font-weight: 700;
+}
+.devices {
+  position: absolute;
+  left: 53%;
+}
+.body-section {
+  padding: 0 0 5% 0;
+}
+.new {
+  font-weight: 700;
+  color: #fff;
+  border-radius: 35%;
+  padding: 0.5% 2% 0.5% 2%;
+}
+.small-heading {
+  padding: 10% 0 0 10%;
+}
+.small-heading-text {
+  padding-left: 2%;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #a0a1ac
+}
+.big-heading {
+  font-weight: 700;
+  font-size: 60px;
+  padding: 2% 30% 0 10%;
+  color: #242942
+}
+.description {
+  font-size: 18px;
+  color: #242942;
+  padding: 3% 0 0 10%;
+}
+.preview {
+  padding: 7% 0 0 10%;
+}
+.preview-text {
+  font-size: 15px;
+  color: #a0a1ac;
+  letter-spacing: 2px;
+  padding-left: 20px;
+}
+.download-button {
+  background-color: #ff5c5c;
+
+  border-color: #bd4745;
+  font-size: 16px;
+  padding: 15px 25px;
+  font-weight: 700;
+}
+.download-button:hover {
+  color: #fff;
+  background-color: #ff5c5c
+}
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 1445px) {
+  .hr {
+    visibility: hidden;
+  }
+}
+@media (max-width: 550px) {
+  .devices {
+    position: static;
+    height: 250px;
+    width: 500px;
+  }
+  .dot {
+    visibility: hidden;
+    display: none;
+  }
+  .hr {
+    visibility: visible;
+    width: 30%;
+  }
+}
